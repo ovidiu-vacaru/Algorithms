@@ -31,7 +31,7 @@ std::vector<int> merge(const std::vector<int> &arrOne, const std::vector<int>&ar
     }
 
     for (; j<arrTwo.size() ; j++) {
-        c.push_back(arrTwo[j++]);
+        c.push_back(arrTwo[j]);
     }
     
     return c;
